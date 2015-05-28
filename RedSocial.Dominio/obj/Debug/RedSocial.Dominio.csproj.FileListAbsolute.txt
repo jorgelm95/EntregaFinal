@@ -1,0 +1,15 @@
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Dominio\bin\Debug\RedSocial.Dominio.dll.config
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Dominio\bin\Debug\RedSocial.Dominio.dll
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Dominio\bin\Debug\RedSocial.Dominio.pdb
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Dominio\bin\Debug\en\RedSocial.Dominio.resources.dll
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Dominio\bin\Debug\EntityFramework.dll
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Dominio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Dominio\bin\Debug\EntityFramework.xml
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Dominio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Dominio\obj\Debug\RedSocial.Dominio.csprojResolveAssemblyReference.cache
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Dominio\obj\Debug\RedSocial.Dominio.RecursosRedSocial.resources
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Dominio\obj\Debug\RedSocial.Dominio.RecursosRedSocial.en.resources
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Dominio\obj\Debug\RedSocial.Dominio.csproj.GenerateResource.Cache
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Dominio\obj\Debug\en\RedSocial.Dominio.resources.dll
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Dominio\obj\Debug\RedSocial.Dominio.dll
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Dominio\obj\Debug\RedSocial.Dominio.pdb

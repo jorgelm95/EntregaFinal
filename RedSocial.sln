@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSocial.Dominio", "RedSocial.Dominio\RedSocial.Dominio.csproj", "{7BA5AD39-99F3-488E-8659-D8FD66DF2A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSocial.Repositorio", "RedSocial.Repositorio\RedSocial.Repositorio.csproj", "{05B0E13B-A1BD-44E1-BD7A-8D26226BA072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSocial.Web", "RedSocial.Web\RedSocial.Web.csproj", "{45833D1A-EB83-47B7-89F4-292577230175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSocial.Servicios", "RedSocial.Servicios\RedSocial.Servicios.csproj", "{F9F6971C-2CF8-4515-8C89-EB8B92EE1FF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BA5AD39-99F3-488E-8659-D8FD66DF2A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA5AD39-99F3-488E-8659-D8FD66DF2A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA5AD39-99F3-488E-8659-D8FD66DF2A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA5AD39-99F3-488E-8659-D8FD66DF2A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B0E13B-A1BD-44E1-BD7A-8D26226BA072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B0E13B-A1BD-44E1-BD7A-8D26226BA072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B0E13B-A1BD-44E1-BD7A-8D26226BA072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B0E13B-A1BD-44E1-BD7A-8D26226BA072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45833D1A-EB83-47B7-89F4-292577230175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45833D1A-EB83-47B7-89F4-292577230175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45833D1A-EB83-47B7-89F4-292577230175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45833D1A-EB83-47B7-89F4-292577230175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F6971C-2CF8-4515-8C89-EB8B92EE1FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F6971C-2CF8-4515-8C89-EB8B92EE1FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F6971C-2CF8-4515-8C89-EB8B92EE1FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F6971C-2CF8-4515-8C89-EB8B92EE1FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

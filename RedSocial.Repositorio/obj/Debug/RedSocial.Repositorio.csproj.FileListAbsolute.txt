@@ -1,0 +1,15 @@
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Repositorio\bin\Debug\RedSocial.Repositorio.dll.config
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Repositorio\bin\Debug\RedSocial.Repositorio.dll
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Repositorio\bin\Debug\RedSocial.Repositorio.pdb
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Repositorio\bin\Debug\EntityFramework.dll
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Repositorio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Repositorio\bin\Debug\RedSocial.Dominio.dll
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Repositorio\bin\Debug\RedSocial.Dominio.pdb
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Repositorio\bin\Debug\EntityFramework.xml
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Repositorio\bin\Debug\en\RedSocial.Dominio.resources.dll
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Repositorio\obj\Debug\RedSocial.Repositorio.csprojResolveAssemblyReference.cache
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Repositorio\obj\Debug\RedSocial.Repositorio.Migrations.InitialCreate.resources
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Repositorio\obj\Debug\RedSocial.Repositorio.csproj.GenerateResource.Cache
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Repositorio\obj\Debug\RedSocial.Repositorio.dll
+C:\Users\jorgeluis\documents\visual studio 2013\Projects\RedSocial\RedSocial.Repositorio\obj\Debug\RedSocial.Repositorio.pdb

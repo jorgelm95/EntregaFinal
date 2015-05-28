@@ -1,0 +1,61 @@
+﻿@model RedSocial.Dominio.Seguridad.Usuario
+@using RedSocial.Dominio
+
+@{
+    ViewBag.Title = "VerPerfil";
+    Layout = "~/Views/Shared/_LayoutRedSocial.cshtml";
+}
+
+<h2>VerPerfil</h2>
+
+<div>
+    <h4>Usuario</h4>
+    <hr />
+
+    <p> @ViewBag.correo</p>
+
+    <dl class="dl-horizontal">
+        
+        <dd>
+            <img class="fotoPerfil" src="..\..\..\imagenes\@Model.Foto" alt="Alternate Text" />
+        </dd>
+
+        <dt>
+
+            @Html.Label(RecursosRedSocial.Nombres)
+        </dt>
+
+        <dd>
+            @Html.Label(RecursosRedSocial.Nombres)
+        </dd>
+
+        <dt>
+            @Html.Label(RecursosRedSocial.Apellidos)
+        </dt>
+
+        <dd>
+            @Html.Label(RecursosRedSocial.Apellidos)
+        </dd>
+
+        <dt>
+            @Html.Label(RecursosRedSocial.Correo)
+        </dt>
+
+        <dd>
+            @Html.Label(RecursosRedSocial.Correo)
+        </dd>
+        <dt>
+            @Html.Label(RecursosRedSocial.NombreUsuario)
+        </dt>
+
+        <dd>
+            @Html.Label(RecursosRedSocial.NombreUsuario)
+        </dd>
+          
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Volver", "", new { id = Model.Id }) |
+    @Html.ActionLink("Enviar Solicitud", "EnviarSolicitud", "SolicitudAmistad", new { idereceptor =  Model.Id, nombreemi = @ViewBag.nombre, area = "Seguridad", @class = "btn btn-primary btn-sm" })
+    
+</p>

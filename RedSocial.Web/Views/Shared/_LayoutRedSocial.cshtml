@@ -1,0 +1,114 @@
+﻿@model RedSocial.Dominio.Seguridad.Usuario
+@using RedSocial.Dominio
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="~/Content/estilos.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery.js"></script>
+    <script src="~/Scripts/MisJs.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+
+</head>
+<body style="height:auto;  background-image:url('../../../imagenes/ZenBG-1.png'), url('../../../imagenes/ZenBG-2.png'); background-repeat:repeat-x, repeat">
+
+    <div class="container">
+        <div class="row clearfix">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="navbar-header" id="menuCabeza">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                    <a class="navbar-brand" href="#" style="color:white;">SocialGran</a>
+                </div>
+
+
+                <div class="collapse navbar-collapse menucabecera" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        
+                        <li>
+                            <a href="#" style="color:white;">@ViewBag.correo</a>
+                        </li>
+                    </ul>
+                    
+                    <ul class="nav navbar-nav navbar-right" id="menuDerecha">
+                        <li>
+                            <a data-toggle="modal"  id ="entro" href="#myModal" role="button" style="color:white;">@RecursosRedSocial.Entrar</a>
+                        </li>
+                        <li>
+                            <a href="#" id="salir" style="color:white;">@RecursosRedSocial.CerrarSesion</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+            <br />
+            <br />
+        </div>
+        <div class="row clearfix" style="height:auto;  background-image:url('../../../imagenes/ZenBG-1.png'), url('../../../imagenes/ZenBG-2.png'); background-repeat:repeat-x, repeat">
+            @RenderBody()
+        </div>
+
+        <div class="row clearfix" id="footer">
+            <div class="col-md-12 column">
+                <p class="text-center">
+                    <strong><small>SocialGramt Todos los derechos reservados</small></strong>
+                    <br />
+                    <strong><small>desarrolladores: Jorge Luis Menco y David Castaño</small></strong>
+                </p>
+            </div>
+        </div>
+
+        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header  menucabecera">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <h4 class="modal-title" id="myModalLabel" style="text-align:center; color:white;">@RecursosRedSocial.IngresarA</h4>
+
+                    </div>
+                    <span id="mesnajeAdvertencia"></span>
+                    <div class="modal-body">
+                        @using (Html.BeginForm(actionName: "Login", controllerName: "Usuario", method: FormMethod.Post))
+                        {
+
+                            <div class="form-horizontal">
+                                <div class="form-group">
+                                    @Html.Label(RecursosRedSocial.NombreUsuario, htmlAttributes: new { @class = "control-label col-md-4" })
+                                    <div class="col-md-6">
+                                        <input type="text" id="NombreUsuarioPopup" name="NombreUsuario" value="" class="form-control" />
+                                        @Html.ValidationMessageFor(model => model.NombreUsuario, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.Label(RecursosRedSocial.Contraseña, htmlAttributes: new { @class = "control-label col-md-4" })
+                                    <div class="col-md-6">
+                                        <input type="password" id="contrasenaPopup" value="" class="form-control" />
+                                        @Html.ValidationMessageFor(model => model.Contraseña, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <input type="button" id="botonIngresar" class="btn btn-primary btn-sm" value="@RecursosRedSocial.IniciarSesion" style="margin-left:90px;" />
+                                @Html.ActionLink(RecursosRedSocial.Registrarse, "Index", "Home", new { @class = "btn btn-primary btn-sm" })
+                                <span id="errorlogin" class="invisible">error usuario o contraseña incorrectos</span>
+                            </div>
+                        }
+                    </div>
+                    <div class="modal-footer menucabecera">
+                        <button type="button" class="btn btn-default" id="botonIngresar" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        <script src="~/Scripts/bootstrap.js"></script>
+    </div>
+</body>
+</html>

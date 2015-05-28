@@ -1,0 +1,67 @@
+﻿
+#muro{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.col-md-8{
+    margin-top:40px;
+}
+.col-md-4{
+    margin-top:60px;
+}
+
+#menuDerecha{
+    margin-right:70px;
+}
+
+#menuCabeza{
+    margin-left:50px;
+}
+#contenidohome{
+    margin-top:90px;
+}
+
+.menucabecera{
+    background-color: rgb(59, 88, 152);
+}
+
+.colortexto{
+    color:#FFFFFF;
+}
+
+#campoLoginuser{
+  margin-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#campoLoginPass{
+  margin-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.esconder{
+    visibility:hidden;
+}
+
+.menuPerfil{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.fotoPerfil{
+  width: 90px;
+  height: 90px;
+  margin-bottom: 20px;
+}
+#muro{
+    background-color:white;
+    border-radius:10px;
+    border:1px gray;
+    margin-top:50px;
+}
+
+.modalBody{
+    background-color:#222222;
+}
